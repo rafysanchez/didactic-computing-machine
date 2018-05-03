@@ -1,2 +1,1 @@
-# didactic-computing-machine
-Code exercises
+simpole and good shopping cart
