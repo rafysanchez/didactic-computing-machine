@@ -13,6 +13,7 @@ export class ProductComponent {
   @Input() public price: number;
   @Input() public currency: string;
   @Input() public size: number;
+  @Input() public image: string;
 
   public getCurrency(): string {
     return 'USD';

@@ -1,5 +1,7 @@
 <div class="product-image">
-  <i class="fa fa-picture-o" [ngStyle]="{ 'font-size': size+'em'}"></i>
+  <!-- <i class="fa fa-picture-o" [ngStyle]="{ 'font-size': size+'em'}"></i> -->
+<img [src]='image'  />
+
 </div>
 <div class="item-name">
   <a routerLink="/products/details/{{id}}">{{name}}</a>
