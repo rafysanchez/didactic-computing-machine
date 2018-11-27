@@ -1,5 +1,0 @@
-dist/*
-target/
-project/
-.idea/
-ensime.sbt
