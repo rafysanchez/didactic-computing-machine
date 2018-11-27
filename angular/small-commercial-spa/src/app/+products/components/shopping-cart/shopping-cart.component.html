@@ -1,10 +1,11 @@
-<p>You have {{shoppingCartItems.length}} items in your bag</p>
+<p>You have {{shoppingCartItems.length}} items in your Bag</p>
 <div *ngFor="let item of shoppingCartItems">
   <spa-product
     [id]="item.id"
     [name]="item.name"
     [price]="item.price"
-    [currency]="item.currency">
+    [currency]="item.currency"
+    [image]='item.picture'>
   </spa-product>
   <spa-color-list [colors]="item.colors"></spa-color-list>
   <button class="remove-item" (click)="removeItem(item)">Remove</button>
